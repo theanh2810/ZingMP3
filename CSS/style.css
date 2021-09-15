@@ -25,7 +25,7 @@ body.light{
 }
 html, body {
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 header{
     display: flex;
@@ -33,27 +33,29 @@ header{
 .left {
     width: 15%;
     background-color: var(--second-color);
-    height: 880px;
+    height: 90vh;
 }
 .left .logo{
-    padding-left: 20px;
-    padding-top: 10px;
+    padding: 10px 0px 0px 20px;
 }
 .left .logo a img{
-    width: 150px;
+    width: 120px;
 }
 .left .menu:last-child{
     height: 54px;
     border: none;
-    margin-top: 80px;
     border-top: 1px solid rgb(43,63,105);
     padding: 5px;
+    position: absolute;
+    bottom: 10vh;
+    left: 0;
+    width: 100%;
 }
 .left .menu .title{
     height: 40px;
     display: flex;
     align-items: center;
-    margin: 10px 5px;
+    margin: 5px 0px;
     padding-left: 20px;
     color: var(--five-color);
     cursor: pointer;
@@ -71,7 +73,7 @@ header{
     opacity: 1;
 }
 .left .menu .title h4{
-    margin-left: 10px;
+    margin: 5px;
     padding: 0;
     font-size: 14px;
 }
@@ -84,8 +86,7 @@ header{
 }
 .left .menu {
     border-bottom: 1px solid rgb(43,63,105);
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
 }
 .menu >h4{
     color: var(--five-color);
@@ -118,6 +119,7 @@ header{
 .right {
     background-color: var(--primary-color);
     width: 85%;
+    height: 90vh;
     position: relative;
 }
 .right .display{
@@ -125,8 +127,8 @@ header{
     top: 50%;
     left: 50%;
     border: 1px solid var(--second-color);
-    width: 800px;
-    height: 600px;
+    width: auto;
+    height: auto;
     transform: translate(-50%,-50%);
     z-index: 1;
     display: inline-block;
@@ -161,12 +163,12 @@ header{
     display: flex;
 }
 .right .display .theme .blackpink{
-    margin-right: 25px;
+    padding: 0px 10px;
 }
 .right .display .theme .blackpink img{
-    width: 150px;
-    height: 150px;
-    margin-bottom: 5px;
+    width: 22vh;
+    height: 15vh;
+    padding-bottom: 5px;
     position: relative;
 }
 .right .display .theme .blackpink .button-img{
@@ -188,23 +190,24 @@ header{
     visibility: visible;
 }
 .right .navbar{
-    height: 100px;
+    width: 100%;
+    height: 10vh;
     display: flex;
     align-items: center;
 }
 .right .navbar .control{
     color: var(--five-color);
-    width: 20%;
-    padding-left: 30px;
+    width: 15%;
+    padding: 0px 20px;
 }
 .right .navbar .control i{
-    margin-left: 20px;
+    padding: 0px 10px;
 }
 .right .navbar .search{
     width: 40%;
     border: 1px solid var(--five-color);
     border-radius: 30px;
-    height: 50px;
+    height: 50%;
     padding-left: 20px;
     background-color: var(--second-color);
 }
@@ -227,8 +230,10 @@ header{
     color: var(--five-color);
 }
 .right .navbar .icons{
-    margin-left: 400px;
-    width: 20%;
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    padding: 0px 50px;
 }
 .right .navbar .icons ul{
     display: flex;
@@ -339,18 +344,24 @@ header{
 .right .content{
     margin-top: 10px;
     color: var(--five-color);
-    height: 230px;
+    height: 23vh;
+    width: 100%;
 }
 .right .content .content-one{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.right .content .content-one .container-upload{
     display: flex;
 }
 .right .content .content-one .baihat{
     display: flex;
-    margin-right: 1200px;
     margin-left: 30px;
 }
 .right .content .content-one .baihat p{
-    margin-right: 10px;
+    padding-right: 10px;
 }
 .right .content .content-one .upload{
     border: 1px solid var(--five-color);
@@ -406,11 +417,11 @@ header{
     border-bottom: 1px solid var(--five-color);
 }
 .right .content .content-two .playlist li .image img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
 }
 .right .content .content-two .playlist li .tacgia{
-    width: 40%;
+    width: 50%;
     margin-left: 10px;
     font-size: 14px;
 }
@@ -418,7 +429,7 @@ header{
     font-size: 14px;
 }
 .right .content .content-two .playlist li .thoiluong{
-    width: 50%;
+    width: 40%;
 }
 .right .content .content-two .playlist li .option{
     width: 10%;
@@ -436,7 +447,7 @@ header{
     left: 0;
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 10vh;
     background-color: var(--third-color);
 }
 .footer .cd{
