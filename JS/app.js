@@ -33,71 +33,71 @@ const app = {
         {
             name: 'Hạ còn vương nắng',
             singer: 'Datkaa',
-            path: '../Nhac/Haconvuongnang.mp3',
-            image: '../Images/haconvuongnang.jpg',
+            path: './Nhac/Haconvuongnang.mp3',
+            image: './Images/haconvuongnang.jpg',
             time: '04:51'
         },
         {
             name: 'Cưới thôi',
             singer: 'Masew',
-            path: '../Nhac/cuoithoi.mp3',
-            image: '../Images/CuoiThoi.jpg',
+            path: './Nhac/cuoithoi.mp3',
+            image: './Images/CuoiThoi.jpg',
             time: '03:01'
         },
         {
             name: 'Ôm trọn nỗi nhớ',
             singer: 'Rum',
-            path: '../Nhac/Omtronnoinho.mp3',
-            image: '../Images/Omtronnoinho.jpg',
+            path: './Nhac/Omtronnoinho.mp3',
+            image: './Images/Omtronnoinho.jpg',
             time: '04:21'
         },
         {
             name: '3107-3',
             singer: 'W/n ft.(Nâu,Duongg,Titie)',
-            path: '../Nhac/3107-3.mp3',
-            image: '../Images/3107.jpg',
+            path: './Nhac/3107-3.mp3',
+            image: './Images/3107.jpg',
             time: '03:55'
         },
         {
             name: 'Độ tộc 2',
             singer: 'MASEW x PHÚC DU x PHÁO x ĐỘ MIXI',
-            path: '../Nhac/Độ tộc 2.mp3',
-            image: '../Images/Dotoc2.jpg',
+            path: './Nhac/Độ tộc 2.mp3',
+            image: './Images/Dotoc2.jpg',
             time: '03:30'
         },
         {
             name: 'Đường tôi chở em về',
             singer: 'buitruonglinh',
-            path: '../Nhac/Duongtoichoemve.mp3',
-            image: '../Images/Duongtoichoemve.jpg',
+            path: './Nhac/Duongtoichoemve.mp3',
+            image: './Images/Duongtoichoemve.jpg',
             time: '04:26'
         },
         {
           name: 'Tổn thương cũng không rời đi',
           singer: 'Luna',
-          path: '../Nhac/Tonthuongcungkoroidi.mp3',
-          image: '../Images/Tonthuongcungkoroidi.jpg',
+          path: './Nhac/Tonthuongcungkoroidi.mp3',
+          image: './Images/Tonthuongcungkoroidi.jpg',
           time: '03:06'
       },
       {
         name: 'Người em cố đô',
         singer: 'Rum x Đaa x Toann',
-        path: '../Nhac/Nguoiemcodo.mp3',
-        image: '../Images/Nguoiemcodo.jpg',
+        path: './Nhac/Nguoiemcodo.mp3',
+        image: './Images/Nguoiemcodo.jpg',
         time: '02:46'
     },
     {
       name: 'Tình yêu ngủ quên',
       singer: 'Hoàng Tôn (ft.LyHan)',
-      path: '../Nhac/Tinhyeunguquen.mp3',
-      image: '../Images/tinhyeunguquen.jpg',
+      path: './Nhac/Tinhyeunguquen.mp3',
+      image: './Images/tinhyeunguquen.jpg',
       time: '03:22'
     },
     {
       name: 'Người có thương',
       singer: 'Datkaa ft QT Beatz',
-      path: '../Nhac/Nguoicothuong.mp3',
-      image: '../Images/Nguoicothuong.jpg',
+      path: './Nhac/Nguoicothuong.mp3',
+      image: './Images/Nguoicothuong.jpg',
       time: '04:34'
     }
     ],
