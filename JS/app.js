@@ -21,6 +21,8 @@ const repeatBtn = $(".btn-repeat");
 const playlist = $(".playlist");
 const volume = $("#volume");
 const  playAll = $(".upload-play")
+const volumeUnmute = $(".fa-volume-mute");
+const volumeMute = $(".fa-volume-up");
 const app = {
   currentIndex: 0,
   isPlaying: false,
@@ -140,21 +142,17 @@ const app = {
     //xu ly khi kich vao nut mute va unmute
     let volumeCurrent = volume.value;
 
-    const volumeMute = $(".fa-volume-up");
     volumeMute.onclick = () => {
       volumeCurrent = volume.value;
-      console.log(volumeCurrent);
       player.classList.add("volume");
       audio.volume = 0;
       volume.value = 0;
     }
 
-    const volumeUnmute = $(".fa-volume-mute");
     volumeUnmute.onclick = () => {
       player.classList.remove("volume");
       audio.volume = volumeCurrent/100;
       volume.value = volumeCurrent;
-      console.log(volume.value);
     }
 
     //xu ly am thanh
