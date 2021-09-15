@@ -137,6 +137,26 @@ const app = {
   handleEvents: function () {
     const _this = this;
     const cdWidth = cd.offsetWidth;
+    //xu ly khi kich vao nut mute va unmute
+    let volumeCurrent = volume.value;
+
+    const volumeMute = $(".fa-volume-up");
+    volumeMute.onclick = () => {
+      volumeCurrent = volume.value;
+      console.log(volumeCurrent);
+      player.classList.add("volume");
+      audio.volume = 0;
+      volume.value = 0;
+    }
+
+    const volumeUnmute = $(".fa-volume-mute");
+    volumeUnmute.onclick = () => {
+      player.classList.remove("volume");
+      audio.volume = volumeCurrent/100;
+      volume.value = volumeCurrent;
+      console.log(volume.value);
+    }
+
     //xu ly am thanh
     volume.onchange = function() {
       audio.volume = volume.value/100
@@ -433,3 +453,4 @@ titles.forEach( title => {
     }
   }
 });
+
